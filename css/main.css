@@ -1,0 +1,16 @@
+*{
+	outline: 1px solid rgba(255, 0, 0, 0.4);
+}
+
+.icon-container {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	line-height: 150px;
+	font-size: 60px;
+	text-align: center;
+	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2)
+	border-radius:200px;
+	color: skyblue;
+}
+
