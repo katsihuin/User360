@@ -1,7 +1,74 @@
 *{
 	outline: 1px solid rgba(255, 0, 0, 0.4);
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-transition: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
 }
 
+body {
+	
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;  
+}
+
+.clearfix {
+	display: table;
+}
+
+.clearfix:after{
+	content:"";
+	clear: both;
+}
+
+/**************** Header ****************/
+
+
+.banner {
+    position: relative;
+    background: rgba(0,0,0,.6) !important;
+    height: 600px;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .img {
+    position: absolute;
+    left:0; top:0;
+    background-size: cover;
+    min-height: 768px;
+    width: 100%;
+    opacity: 0.5; 
+    background-image: url("../image/large.jpg");
+    z-index: -1;
+}
+.phrase {
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-120%);
+}
+.header-banner {
+	position: relative;
+	top: 61%;
+	background-color: rgba(51, 119, 255, 0.4);
+}
+
+.button {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	float: left;
+}
+
+/**************** Services ****************/
 .icon-container {
 	width: 150px;
 	height: 150px;
@@ -13,4 +80,6 @@
 	border-radius:200px;
 	color: skyblue;
 }
-
+/**************** Request ****************/
+/**************** Footer ****************/
+/**************** Responsive ****************/
