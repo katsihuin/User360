@@ -1,16 +1,11 @@
 
 *{
-	outline: 1px solid rgba(255, 0, 0, 0.4);
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	-webkit-transition: border-box;
 	-moz-box-sizing:border-box;
 	box-sizing: border-box;
-}
-
-body {
-	
 }
 
 .container{
@@ -39,7 +34,7 @@ body {
     text-align: center;
 }
 
-.banner .img {
+.banner .img-transp {
     position: absolute;
     left:0; top:0;
     background-size: cover;
@@ -49,6 +44,16 @@ body {
     background-image: url("../image/large.jpg");
     z-index: -1;
 }
+.list-inline {
+    float: right;
+    margin: 15px 20px 0 0;
+}
+.list-inline li a {
+	display: inline-block;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 15px;
+}
 .phrase {
 	width: 50%;
 	margin: 0 auto;
@@ -57,9 +62,11 @@ body {
 	transform: translateY(-120%);
 }
 .header-banner {
-	position: relative;
-	top: 61%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	background-color: rgba(51, 119, 255, 0.4);
+	text-align: right;
 }
 
 .button {
@@ -67,14 +74,20 @@ body {
 	border: 1px solid #fff;
 	color: #fff;
 	float: left;
+	margin-top: 20px 0 0 50px;
+	margin-left: 50px;
 }
 
 /**************** Services ****************/
 
 .services {
 	height: 400px;
+	text-align: center;
 }
-.services h5{
+.services h2, h4, p {
+	padding: 10px;
+}
+.services h4{
 	color:#006699;
 }
 .text-center {
@@ -89,9 +102,9 @@ body {
 	line-height: 150px;
 	font-size: 60px;
 	text-align: center;
-	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2)
+	box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2);
 	border-radius:200px;
-	color: skyblue;
+	color: skyblue;	
 }
 
 .logo2 {
@@ -100,7 +113,9 @@ body {
 	margin: 0 auto;
 }
 /**************** Example ****************/
-
+.example p {
+	padding: 12px 0;
+}
 .flecha {
 	text-align: center;
 }
@@ -110,27 +125,116 @@ body {
 	margin: 0 auto;
 }
 
-/**************** Request ****************/
-.iconcircle {
-	position: relative;
-	color: #6699ff;
-	height: 20px;
-	width: 20px;
-	line-height: 50px;
-	text-align: center;
-	border-radius: 100%;
-	z-index: 100;
-	color: #fff;
-	font-size: 20px;
+.transp {
+    position: relative;
+    background: rgba(0,0,0,.6) !important;
+    height: 600px;
+    color: #fff;
+    text-align: center;
 }
 
+.transp .img-transp2 {
+    position: absolute;
+    left:0; top:0;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    opacity: 0.5px; 
+    background-image: url("../image/sec-2.jpg");
+    z-index: -1;
+}
 
+.iconcircle {
+    position:relative;
+    left:-40px;
+    top:50px;
+    background: #6699ff;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	border-radius: 100%;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;	
+}
 
-/**************** Footer ****************/
-.footer-banner {
+.pencil {
+    position: relative;
+    top:70px;
+}
+
+.tool {
+    position: relative;
+    top:160px;
+}
+
+.glass {
+    position: relative;
+    top:240px;
+}
+
+.steps h3, h4, p, li {
+	padding: 10px;
+}
+.steps ul {
+	margin-left: 20px;
+}
+.steps h4 {
+	color: skyblue;
+}
+.steps {
 	position: relative;
-	top: 61%;
+	top:-130px;
+	margin-left: 30px;
+}
+
+/**************** Request ****************/
+.request p, li {
+	padding: 10px;
+}
+.request ul {
+	margin-left: 20px;
+}
+.request small {
+	color: #6699ff;
+}
+
+.footer-banner {
+	position: absolute;
+	bottom: 0;
 	background-color: rgba(51, 119, 255, 0.4);
+	text-align: right;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.button {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	float: left;
+	margin-top: 20px 0 0 50px;
+	margin-left: 50px;
+}
+/**************** Footer ****************/
+footer {
+	background-color: #00004d;
+	color: #fff;
+    padding: 20px 0;
+}
+
+.icon-redes {
+	display: inline-block;
+    float: right;
+    color: skyblue;
+    font-size: 20px;   
+}
+
+footer small{
+	margin-left: 10px;
+}
+.copy {
+	line-height: 20px;
 }
 
 /**************** Responsive ****************/
