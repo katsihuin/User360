@@ -3,12 +3,15 @@
 	<head>
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
 	  	<link rel="stylesheet" type="text/css" href="css/main.css">
 	  	<link rel="stylesheet" type="text/css" href="css/queries.css">
+	  	<link rel="stylesheet" href="icon/style.css">
+
 	</head>
 	<body>
 		<!--------------------Section Header-------------------->
@@ -17,7 +20,11 @@
 				<div class="img-transp"></div>
 				<div class="row">
 					<div class="col-md-3">
-						<img src="image/user-r.png" class="img-responsive" alt="">
+						<div class="logo"><img src="image/user-r.png" class="img-responsive" alt=""></div>
+						
+					</div>
+					<div class="menu-bar">
+						<a href="#" class="bt-menu"><span class="icon-menu"></span></a>
 					</div>
 					<div class="col-md-9">
 						<nav>
@@ -25,7 +32,7 @@
 								<li><a href="#">¿Qué me ofrece?</a></li>
 								<li><a href="#">¿Cómo funciona?</a></li>
 								<li><a href="#">¿Por qué usarlo?</a></li>
-								<li><a href="#">Contáctanos</a></li>
+								<li><a href="contact.html">Contáctanos</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -50,24 +57,30 @@
 		<section class="services">
 			<div class="container">
 				<h2 class="text-center">Nuestros Servicios</h2>
-				<div class="row">
+				<div class="row img-responsive">
 					<div class="col-md-4 ">
 						<div class="icon-container">
-							<i class="icon-video"></i>
+							<button type="submit" class="btn1 btn-default">
+								<i class="icon-video"></i>
+							</button>
 						</div>
 						<h>Pruebalo gratis</h4>
 						<p>Obtén tu primer vídeo screencast de un usuario navegando tu página.</p>
 					</div>
 					<div class="col-md-4">
 						<div class="icon-container">
-							<i class="icon-clock"></i>
+							<button type="submit" class="btn1 btn-default">
+								<i class="icon-clock"></i>
+							</button>
 						</div>
 						<h4>Compra el servicio completo</h4>
 						<p>Si te gustó, compra nuestro servicio completo que incluye 7 videos y feedback.</p>
 					</div>
 					<div class="col-md-4">
 						<div class="icon-container">
-							<i class="icon-documents"></i>
+							<button type="submit" class="btn1 btn-default">
+								<i class="icon-documents"></i>
+							</button>
 						</div>
 						<h4>Obtén el resultado en 1 día</h4>
 						<p>Te haremos llegar los videos y el feedback completo el mismo dia.</p>
@@ -76,7 +89,7 @@
 			</div>
 		</section>
 	<!--...........Section Example-------------------->
-		<img src="image/separador.png" class="img-responsive divider">
+		<img src="image/separador.png " class="img-responsive divider">
 		<section class="example">
 			<div class="container">
 				<div class="row">
@@ -152,36 +165,29 @@
 	            </div>
 	        </div>
 	    </section>
-	<!--------------------Footer-------------------->    
-	    <footer>
-	        <div class="container">
-	            <div class="">
-					<div class="row footer-banner">
-						<div class="col-md-4 col-md-offset-2">
-							<h3>PRUEBA GRATUITA</h3>
-							<p>Obtén un video gratis en 5 minutos</p>
-						</div>
-						<div class="col-md-4">
-							<p><a class="btn-lg button" href="#" role="button">Pruebalo gratis</a></p>
-						</div>
-					</div>						
+	<!--------------------Footer-------------------->  
+		<div class="container">  
+	    	<div class="row footer-banner">
+				<div class="col-md-4 col-md-offset-2">
+					<h3>PRUEBA GRATUITA</h3>
+					<p>Obtén un video gratis en 5 minutos</p>
 				</div>
-	            <div class="page-footer">
-	                <div class="row">
-	                    <div class="col-md-9">
-	                        <p>Escribenos a:</p>
-	                        <small><a href="">experienciadeusuario.lab@gmail.com</a></small>
-	                        <p>telef: 989637925</p>
-	                    </div>
-	                    <div class="col-md-3 icon-redes">
-	                        <i class="icon-facebook"></i>
-	                        <i class="icon-twitter"></i>
-	                    
-	                    </div>
-	                        <p class="copy">Copyright © 2015 - User testing 360</p>
+				<div class="col-md-4">
+					<p><a class="btn-lg button" href="#" role="button">Pruebalo gratis</a></p>
+				</div>
+			</div>
+	        <div class="row page-footer">
+	                <div class="col-md-9">
+	                    <p>Escribenos a:</p>
+	                    <small><a href="">experienciadeusuario.lab@gmail.com</a></small>
+	                    <p>telef: 989637925</p>
 	                </div>
-	            </div>
+	                <div class="col-md-3 icon-redes">
+	                    <i class="icon-facebook"></i>
+	                    <i class="icon-twitter"></i>
+	                </div>
+	                    <p class="copy">Copyright © 2015 - User testing 360</p>
 	        </div>
-	    </footer>
+	    </div>
 	</body>
 </html>

@@ -78,6 +78,10 @@
 	margin-left: 50px;
 }
 
+.menu-bar {
+	display: none;
+}
+
 /**************** Services ****************/
 
 .services {
@@ -95,7 +99,7 @@
 	text-align: center;	
  }
 
-.icon-container {
+.btn1, .icon-container {
 	width: 150px;
 	height: 150px;
 	margin: 0 auto;
@@ -160,17 +164,17 @@
 
 .pencil {
     position: relative;
-    top:70px;
+    top:90px;
 }
 
 .tool {
     position: relative;
-    top:160px;
+    top: 160px;
 }
 
 .glass {
     position: relative;
-    top:240px;
+    top: 345px;
 }
 
 .steps h3, h4, p, li {
@@ -200,8 +204,8 @@
 }
 
 .footer-banner {
-	position: absolute;
-	bottom: 0;
+	position: relative;
+	top:50%;
 	background-color: rgba(51, 119, 255, 0.4);
 	text-align: right;
 	color: #fff;
@@ -217,7 +221,7 @@
 	margin-left: 50px;
 }
 /**************** Footer ****************/
-footer {
+.page-footer {
 	background-color: #00004d;
 	color: #fff;
     padding: 20px 0;
@@ -230,7 +234,7 @@ footer {
     font-size: 20px;   
 }
 
-footer small{
+.page-footer small{
 	margin-left: 10px;
 }
 .copy {
@@ -238,3 +242,78 @@ footer small{
 }
 
 /**************** Responsive ****************/
+@media screen and (max-width: 600px) {
+	.list-inline {
+		display: none;
+	}
+	.container {
+        width: 95%;  
+    }
+
+    .menu-bar {
+  	display: block;
+  	width: 100%;
+  	position: fixed;
+  	top: 0;
+  	}
+
+  	.menu-bar .bt-menu, {
+  		display: block;
+  		padding: 20px;
+  		overflow: hidden;
+  		font-size: 25px;
+		text-decoration: none;
+  	}
+
+  	.menu-bar span {
+  		float: right;
+  		font-size: 50px;
+  		display: inline-block;
+  		padding: 20px 40px 20px 0;
+  	}
+
+  	.phrase h1{
+  		font-size: 23px;
+  		position: relative;
+		top: 50%;
+		transform: translateY(-25%);
+  	}
+
+  	.btn1, .icon-container {
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+		line-height: 150px;
+		font-size: 60px;
+		text-align: center;
+		box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2);
+		border-radius:200px;
+		color: skyblue;	
+	}
+
+	.iconcircle {
+	    position:relative;
+	    left:-10px;
+	    height: 40px;
+		line-height: 40px;
+		width: 40px;
+		border-radius: 100%;
+	}
+
+	.pencil {
+	    position: relative;
+	    top:70px;
+	}
+
+	.tool {
+	    position: relative;
+	    top:220px;
+	}
+
+	.glass {
+	    position: relative;
+	    top:370px;
+	}
+
+
+}
