@@ -20,15 +20,14 @@
 				<div class="img-transp"></div>
 				<div class="row">
 					<div class="col-md-3 col-sm-2 col-xs-6">
-						<img src="image/user-r.png" class="img-responsive .logo" alt="">
+						<img src="image/user-r.png" class="img-responsive logo" alt="">
 					</div>
 					<div class="col-md-9 col-sm-10 col-xs-6">
 						<div class="text-right visible-xs">
-							<button class="bnt btn-primary" data-toggle="collapse" data-target="#main-navigation"></button>
+							<button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
 						</div>
-					
-					<nav >
-							<ul class="list-inline text-right">
+						<nav class="hidden-xs">
+							<ul class="desktop-menu list-inline text-right">
 								<li><a href="#">¿Qué me ofrece?</a></li>
 								<li><a href="#">¿Cómo funciona?</a></li>
 								<li><a href="#">¿Por qué usarlo?</a></li>
@@ -37,34 +36,46 @@
 						</nav>
 					</div>
 				</div>
+				<nav class="visible-xs">
+					<div id="main-navigation" class="collapse">
+						<ul  class="mobile-menu text-right">
+							<li><a href="#">¿Qué me ofrece?</a></li>
+							<li><a href="#">¿Cómo funciona?</a></li>
+							<li><a href="#">¿Por qué usarlo?</a></li>
+							<li><a href="#">Contactanos</a></li>
+						</ul>
+					</div>
+				</nav>
 				<div class="phrase">
-					<h1>Obtèn videos de personas reales utilizando tu sitio web, en 1 hora</h1>
+					<h1>Obtèn videos de personas reales <br> utilizando tu sitio web, en 1 hora</h1>
 				</div>
-				<div class="row header-banner">
-					<div class="col-md-4 col-md-offset-2">
+				<div class="header-banner">
+				<div class="container">
+				<div class="row">
+					<div class=" banner-info col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2">
 						<h3>PRUEBA GRATUITA</h3>
 						<p>Obtén un video gratis en 5 minutos</p>
 					</div>
-					<div class="col-md-4" >
-						<p><a class="btn-lg button" href="#" role="button">Pruebalo Gratis</a></p>	
+					<div class="col-md-4 col-sm-4 text-center">
+						<p><a class="banner-button btn-primary" href="#" role="button">Pruebalo Gratis</a></p>	
 					</div>
+				</div>
+				</div>
 				</div>	
 			</div>
 		</header>
 	<!--------------------Section Services-------------------->
-	<br>
-	<br>
 		<section class="services">
 			<div class="container">
 				<h2 class="text-center">Nuestros Servicios</h2>
-				<div class="row img-responsive">
-					<div class="col-md-4 ">
+				<div class="row">
+					<div class="col-md-4">
 						<div class="icon-container">
 							<button type="submit" class="btn1 btn-default">
 								<i class="icon-video"></i>
 							</button>
 						</div>
-						<h>Pruebalo gratis</h4>
+						<h4>Pruebalo gratis</h4>
 						<p>Obtén tu primer vídeo screencast de un usuario navegando tu página.</p>
 					</div>
 					<div class="col-md-4">
@@ -88,6 +99,10 @@
 				</div>
 			</div>
 		</section>
+
+		<div class="vertical-divider">
+			<img src="image/separador.png" alt="">
+		</div>
 	<!--...........Section Example-------------------->
 		<section class="example">
 			<div class="container">
@@ -103,42 +118,49 @@
 						</p>
 					</div>
 					<div class="col-md-6">
-						<div>
-						</div>
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe class="embed" width="560" height="315" src="https://www.youtube.com/embed/u7MDfG9ZJTU" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
-		</section>	
-		<section>
+			</div>
+		</section>
+
+	<!--...........Section Steps-------------------->
+		<section class="steps">
+			<div class="container">
 				<div class="row">
-	                <div class="col-md-6 transp">
-	                	<div class="img-transp2"></div>
+	                <div class="img-steps col-md-6 text-center">
 	                </div>
-	           		<div class="col-md-6">
-	                	<div class="iconcircle pencil">
-	                		<i class="icon-pencil i"></i>
-	                	</div>
-	                	<div class="iconcircle tool">
-	                		<i class="icon-tools-2"></i>
-	                	</div>
-	                	<div class="iconcircle glass">
-	                		<i class="icon-magnifying-glass"></i>
-	                	</div>
-	                	<div class="steps">
-		                	<h3>Lo quiero ¿Qué hago?</h3>
-		                    <h4>Paso 1: envianos tu link</h4>
-		                    <p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
-		                    <h4>Paso 2: describe a tu público objetivo</h4>
-		                    <p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
-		                    <ul>
-		                        <li>A primera vista, ¿de qué crees que trata la página?</li>
-		                        <li>Busca el botón de inscribirte o comprar</li>
-		                        <li>¿Es fácil o difícil leer los textos?</li>
-		                    </ul>
-		                    <h4>Paso 3: recibe un video y el feedback completo</h4>
-		                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
+	           		<div id="use" class="col-md-6 col-steps-info text-left">
+	           			<h3 class="text-center">Lo quiero ¿Qué hago?</h3>
+		           		<div class="steps-info">
+		                	<div class="step1">
+		                		<span class="iconcircle">
+		                		<i class="icon-pencil i"></i>
+		                		<h4>Paso 1: envianos tu link</h4>
+			                    <p>Al darle click al botón de prueba. Coloca tu nombre y tu correo electrónico a donde enviaremos el video y el informe con el feedback.</p>
+		                		</span>
+		                	</div>
+			                <div class="step2">
+			                	<span class="iconcircle">
+		                		<i class="icon-tools-2"></i>
+		                		<h4>Paso 2: describe a tu público objetivo</h4>
+			                    <p>Describe las acciones que quieres que evaluemos por ejemplo:</p>
+			                    <ul>
+			                        <li>A primera vista, ¿de qué crees que trata la página?</li>
+			                        <li>Busca el botón de inscribirte o comprar</li>
+			                        <li>¿Es fácil o difícil leer los textos?</li>
+			                    </ul>
+		                		</span>
+			                </div>
+			                <div class="step3">
+			                	<span class="iconcircle">
+		                		<i class="icon-magnifying-glass"></i>
+		                		</span>
+		                		<h4>Paso 3: recibe un video y el feedback completo</h4>
+			                    <p>Recibe un combo de 7 videos y un informe detallado con las captaciones de usabilidad de tu producto.</p>
+			                </div>	
 	                    </div>
 	                </div>
 	            </div>
