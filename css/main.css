@@ -172,10 +172,14 @@
 
 .step1, .step2, .step3 {
 	position: relative;
+	z-index: 1000;
 }
 
+.step2 ul li {
+	margin-left: 20px;
+}
 .step3{
-	margin-bottom: -20px;
+	margin-bottom: 50px;
 }
 
 .iconcircle {
@@ -189,14 +193,12 @@
 	transform: translateY(-50%);
 	margin-left: -50px;
 }
-
-.steps h3, h4, p, li {
+ 
+h3, h4, p, li {
 	padding: 10px;
 }
-.steps ul {
-	margin-left: 20px;
-}
-.steps h4 {
+
+ h4 {
 	color: skyblue;
 }
 
@@ -228,6 +230,24 @@
 	font-size: 20px;
 }
 /**************** Footer ****************/
+.footer-banner
+{
+	background: rgba(87, 149, 255, 0.79);
+	padding: 30px 0;
+}
+.footer-banner h3
+{
+	margin: 0;
+}
+.footer-button
+{
+	background: none;
+	border:1px solid #FFF;
+	padding: 5px 10px;
+	border-radius: 3px;
+	font-size: 20px;
+
+}
 .page-footer {
 	background-color: #00004d;
 	color: #fff;
@@ -249,80 +269,6 @@
 }
 
 /**************** Responsive ****************/
-@media screen and (max-width: 600px) {
-	.list-inline {
-		display: none;
-	}
-	.container {
-        width: 95%;  
-    }
-
-    .menu-bar {
-  	display: block;
-  	width: 100%;
-  	position: fixed;
-  	top: 0;
-  	}
-
-  	.menu-bar .bt-menu, {
-  		display: block;
-  		padding: 20px;
-  		overflow: hidden;
-  		font-size: 25px;
-		text-decoration: none;
-  	}
-
-  	.menu-bar span {
-  		float: right;
-  		font-size: 50px;
-  		display: inline-block;
-  		padding: 20px 40px 20px 0;
-  	}
-
-  	.phrase h1{
-  		font-size: 23px;
-  		position: relative;
-		top: 50%;
-		transform: translateY(-25%);
-  	}
-
-  	.btn1, .icon-container {
-		width: 150px;
-		height: 150px;
-		margin: 0 auto;
-		line-height: 150px;
-		font-size: 60px;
-		text-align: center;
-		box-shadow: -2px 2px 20px rgba(0 , 0, 0, 0.2);
-		border-radius:200px;
-		color: skyblue;	
-	}
-
-	.iconcircle {
-	    position:relative;
-	    left:-10px;
-	    height: 40px;
-		line-height: 40px;
-		width: 40px;
-		border-radius: 100%;
-	}
-
-	.pencil {
-	    position: relative;
-	    top:70px;
-	}
-
-	.tool {
-	    position: relative;
-	    top:220px;
-	}
-
-	.glass {
-	    position: relative;
-	    top:370px;
-	}
-}
-
 @media screen and (max-width:768px)
 {
 	.banner-info
@@ -330,28 +276,28 @@
 		text-align:center;
 		margin-bottom: 15px;
 	}
-	.frase{
+	.phrase{
 		margin: 60px 0;
 	}
-	.frase h2{
+	.phrase h2{
 		font-size: 20px;
 	}
 }
 @media screen and (max-width:999px)
 {
-	.icon-blue
+	.iconcircle
 	{
 		margin-left: -65px;
 
 	}
-	.pasos .col-pasos-info
+	.steps .col-steps-info
 	{
 		background: none;
 	}
-	.pasos .row{
+	.steps .row{
 		background-size: cover;
 	}
-	.pasos .pasos-info
+	.steps .steps-info
 	{
 		margin: 20px;
 		border-radius: 10px;
