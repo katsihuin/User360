@@ -282,6 +282,11 @@ h3, h4, p, li {
 	.phrase h2{
 		font-size: 20px;
 	}
+
+	.form {
+	width: 90%;	
+ 	height: 500px;
+	}
 }
 @media screen and (max-width:999px)
 {
@@ -304,20 +309,21 @@ h3, h4, p, li {
 		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
 		padding: 5px 20px 5px 40px;
 	}
+	.form {
+	width: 90%;
+ 	height: 500px;
+	}
 }
 
 @media screen and (max-width:999px) and (min-width:768px)
 {
-	.tapita-azul .row>div
-	{
-		text-align: center;
-	}
-	.tapita-azul .row>div .img-responsive
-	{
-		display: inline-block;
-	}
 	.desktop-menu
 	{
 		text-align: center;
+	}
+
+	.form {
+	width: 90%;
+ 	height: 500px;
 	}
 }

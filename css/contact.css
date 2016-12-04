@@ -1,54 +1,59 @@
-body{
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.contact {
+	background-position: 50% 50% !important;
+	background size: cover !important;
+	background-repeat: no-repeat;
+	width: 100%;
 	background-image: url("../image/large.jpg");
- 	background-size: cover;
 }
  
-.container-fluid {
- 	position: relative;
-	top: 120px;
+section {
+	margin: 0;
+	padding: 0;
+}
+
+.section-fullscreen {
+	min-height: 100vh;
 }
   
-#formulario {
- 	width: 70%;
- 	height: 400px;
+.section-md {
+	padding: 0;
+}
+
+.flex-vertical-center {
+	display: flex;
+	align-items: center;
+}
+.form {
+ 	width: 60%;
+ 	height: 300px;
  	background: white;
  	margin: 0 auto;
- 	border-top: 3px solid blue; 
+ 	border:1px solid darkgrey;
+ 	border-top: 5px solid #337ab7; 
 }
-  
+
+.form h3{
+ 	border-bottom: 3px solid darkgrey;
+ 	width: 90%;
+}
+.form-control {
+	border-radius: none;
+}
+
 span{
   	color: red;
 }
 
-.enlace1, .enlace2, .enlace3 {
- 	margin-left: 150px; 
+p{
+	display: block;
 }
- 
-.uno{
- 	margin-left: 65px;
- 	width: 300px; 
+button, input, optgroup, select, textarea {
+	margin: 5px;
 }
 
-.dos{
- 	margin-left: 84px;
- 	width: 300px; 
-}
-
-.tres{
- 	margin-left: 5px;
- 	width: 300px;
- 	padding-bottom: 70px; 
-}
- 
-.inp{
- 	margin-left: 340px;
- 	margin-top: 10px;
-}
- 
-button {
- 	border: 0px;
- 	border-radius: 5px;
- 	background: #6ba9da;
- 	color: white;
- 	margin-left: 290px;
-}

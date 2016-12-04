@@ -1,8 +1,7 @@
 <!DOCTYPE html>
   	<html>
   	<head>
-		 <title>Contacto</title>
- 	</head>
+		<title>Contacto</title>
  	  	<meta charset="utf-8">
  		<link rel="stylesheet" href="css/animate.css">
  	  	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -11,36 +10,54 @@
  	  	<link rel="stylesheet" href="css/queries.css">
  	  	<link rel="stylesheet" href="css/contact.css">
  	  	<link rel="stylesheet" href="css/main.css">
- 	  	</head>
+ 	</head>
  	 <body>
- 			<!--Escribe aqui tu codigo-->
- 
-			 <div class="container-fluid">
-			 		<div class="row" id="formulario">
-			 			<div class="col-md-12">
-			 				<div class="form">
-				 				<h3>Formulario User Testing 360</h3>
-				 				<hr>
-				 				<form class="enlace1">
-				 					<h4>Nombre<span>*</span>
-				 						<input class="uno" type="text" id="elemento"/>
-				 					</h4>
-				 				</form>
-			 					<form class="enlace2">
-			 						<h4>Email<span>*</span>
-			 							<input class="dos" type="text" id="elemento"/>
-			 						</h4>
-			 					</form>
-			 					<form class="enlace3">
-			 						<h4>Dejame tu URL<span>*</span>
-			 							<input class="tres" type="text"id="elemento"/>
-			 						</h4>
-			 					</form>
-			 					<button class="bott" type="button" id="buto">Enviar Email</button>
-			 					<div class="inp"><input class="cuatro" type="text"id="elemento"/></div>
- 							</div>	
- 						</div>
+ 		<!--Here Starts Contact Form-->
+ 		<section class="contact section-fullscreen flex-vertical-center">	
+			<div class="container">
+				<br>
+				<div class="form section-md">
+					<div class="col-md-offset-1 cold-md-8">
+						<h3 class="">Formulario User Testing 360</h3>
 					</div>
- 			</div>
+					<form action="" class="">
+						<div class="form-group">
+							<label for="nombre" class="control-label col-md-offset-1 col-md-3">Nombre <span>*</span></label>
+							<div class="col-md-5">
+								<input class="form-control" id="nombre" type="text" placeholder="" required="">
+							</div>	
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-offset-1 col-md-3" for="correo">Email: <span>*</span></label>
+							<div class="col-md-5">
+								<div class="sr-only input-group-addon">@<span>*</span></div>
+								<input class="form-control" id="Email" type="text" placeholder="" required="">	
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-md-3 col-md-offset-1" for="nombre">Dejame tu URL: <span>*</span></label>
+							<div class="col-md-5">
+								<textarea class="form-control" id="URL" placeholder="" required></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-offset-4 col-md-8">
+								<button class="btn btn-primary" type="submit">Enviar Email</button>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-md-offset-5 col-md-3">
+								<input class="form-control" id="Email" type="text" placeholder="" required="">
+							</div>
+						</div>
+					</form>
+					<div class="col-md-12">
+						<small class="col-md-4 col-sm-5 col-xs-12">Powered by <u>Equipo Laboratoria</u></small>
+						<small class="col-md-offset-6 col-md-2 col-sm-offset-4 col-sm-2 col-xs-12"><u>Report abuso</u></small>
+					</div>
+				</div>
+			</div>	
+				
+		</section>
   	</body>
   </html> 
