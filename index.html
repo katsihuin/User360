@@ -12,6 +12,9 @@
 	  	<link rel="stylesheet" type="text/css" href="css/queries.css">
 	  	<link rel="stylesheet" href="icon/style.css">
 	  	<link rel="shortcut icon" type="image/png" href="favicon.ico.png">
+	  	<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+
 	</head>
 	<body>
 		<!--------------------Section Header-------------------->
@@ -24,7 +27,9 @@
 					</div>
 					<div class="col-md-9 col-sm-10 col-xs-6">
 						<div class="text-right visible-xs">
-							<button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+							<button type="button" id="burger-button" class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation" aria-label="Menu Hamburger">
+						    	<span class="icon-menu"></span>
+						    </button>
 						</div>
 						<nav class="hidden-xs">
 							<ul class="desktop-menu list-inline text-right">

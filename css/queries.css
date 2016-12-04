@@ -1,0 +1,59 @@
+/**************** Responsive ****************/
+@media screen and (max-width:768px)
+{
+	.banner-info
+	{
+		text-align:center;
+		margin-bottom: 15px;
+	}
+	.phrase{
+		margin: 60px 0;
+	}
+	.phrase h2{
+		font-size: 20px;
+	}
+
+	.form {
+	width: 90%;	
+ 	height: 500px;
+	}
+}
+@media screen and (max-width:999px)
+{
+	.iconcircle
+	{
+		margin-left: -65px;
+
+	}
+	.steps .col-steps-info
+	{
+		background: none;
+	}
+	.steps .row{
+		background-size: cover;
+	}
+	.steps .steps-info
+	{
+		margin: 20px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
+		padding: 5px 20px 5px 40px;
+	}
+	.form {
+	width: 90%;
+ 	height: 500px;
+	}
+}
+
+@media screen and (max-width:999px) and (min-width:768px)
+{
+	.desktop-menu
+	{
+		text-align: center;
+	}
+
+	.form {
+	width: 90%;
+ 	height: 500px;
+	}
+}

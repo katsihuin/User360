@@ -1,3 +1,8 @@
+section {
+	margin: 0;
+	padding: 0;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -12,11 +17,6 @@
 	background-image: url("../image/large.jpg");
 }
  
-section {
-	margin: 0;
-	padding: 0;
-}
-
 .section-fullscreen {
 	min-height: 100vh;
 }
@@ -29,6 +29,7 @@ section {
 	display: flex;
 	align-items: center;
 }
+
 .form {
  	width: 60%;
  	height: 300px;
@@ -38,21 +39,23 @@ section {
  	border-top: 5px solid #337ab7; 
 }
 
-.form h3{
+h3 {
  	border-bottom: 3px solid darkgrey;
  	width: 90%;
 }
-.form-control {
-	border-radius: none;
-}
 
-span{
+span {
   	color: red;
 }
 
-p{
+p {
 	display: block;
 }
+
+u {
+	color: black;
+}
+
 button, input, optgroup, select, textarea {
 	margin: 5px;
 }
