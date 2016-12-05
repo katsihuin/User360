@@ -203,10 +203,6 @@ header nav a:hover, nav li a:focus {
 }
 
 /**************** Section Steps ****************/
-.steps{
-	margin-bottom: 50px;
-}
-
 .img-steps{
 	background: rgba(66, 66, 87, 0.64) !important;
     height: 470px;
@@ -224,10 +220,6 @@ header nav a:hover, nav li a:focus {
     width: 100%;
     opacity: 0.5px; 
     z-index: -1;
-}
-
-.steps .row{
-
 }
 
 .steps .col-steps-info{
@@ -276,6 +268,9 @@ h3, h4, p, li {
 }
 
 /**************** Request ****************/
+.request {
+	margin-top: 100px;
+}
 .request p, li {
 	padding: 10px;
 }
@@ -332,9 +327,9 @@ h3, h4, p, li {
 
 .icon-redes {
 	display: inline-block;
-    float: right;
     color: skyblue;
-    font-size: 20px;   
+    font-size: 20px;
+    padding-left: 180px;   
 }
 
 .page-footer small {
@@ -348,8 +343,7 @@ h3, h4, p, li {
 /**************** Responsive ****************/
 @media screen and (max-width:768px)
 {
-	.banner-info
-	{
+	.banner-info{
 		text-align:center;
 		margin-bottom: 15px;
 	}
@@ -359,49 +353,70 @@ h3, h4, p, li {
 	.phrase h2{
 		font-size: 20px;
 	}
-
 	.form {
-	width: 90%;	
- 	height: 500px;
+		width: 90%;	
+	 	height: 500px;
+	}
+	.page-footer {
+		text-align: center;
+	}
+	.icon-redes {
+		padding: 0;   
+	}
+	.steps .container{
+	margin-bottom: 100px;
 	}
 }
 
 @media screen and (max-width:999px)
 {
-	.iconcircle
-	{
+	.iconcircle{
 		margin-left: -65px;
-
 	}
-	.steps .col-steps-info
-	{
+	.steps .col-steps-info{
 		background: none;
 	}
 	.steps .row{
 		background-size: cover;
 	}
-	.steps .steps-info
-	{
+	.steps .steps-info{
 		margin: 20px;
 		border-radius: 10px;
 		box-shadow: 2px 2px 20px rgba(0,0,0,0.8);
 		padding: 5px 20px 5px 40px;
 	}
 	.form {
-	width: 90%;
- 	height: 500px;
+		width: 90%;
+	 	height: 500px;
 	}
+	.page-footer {
+		text-align: center;
+	}
+	.icon-redes {
+		padding: 0;   
+	}
+	.steps .container{
+	margin-bottom: 100px;
+	}
+
 }
 
 @media screen and (max-width:999px) and (min-width:768px)
 {
-	.desktop-menu
-	{
+	.desktop-menu{
 		text-align: center;
 	}
-
 	.form {
-	width: 90%;
- 	height: 500px;
+		width: 90%;
+	 	height: 500px;
+	}
+	.page-footer {
+		text-align: center;
+	}
+	.icon-redes {
+		padding: 0;   
+	}
+	.steps .container{
+	margin-bottom: 100px;
 	}
 }
