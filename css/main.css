@@ -76,14 +76,6 @@
 	margin: 0;
 }
 
-.banner-button {
-	background-color: transparent;
-	border: 1px solid #fff;
-	color: #fff;
-	padding: 5px 10px;
-	border-radius: 3px;
-	font-size: 20px;
-}
 
 header nav a {
 	color: #808080;
@@ -121,7 +113,7 @@ header nav a:hover, nav li a:focus {
 
 .icon-menu{
 	margin: 10px;
-	background-color: #FFF;
+	background-color: transparent;
 	color: lightgrey;
 	font-size: 25px;
 }
@@ -263,7 +255,7 @@ h3, h4, p, li {
 	padding: 0px;
 }
 
- h4 {
+h4 {
 	color: skyblue;
 }
 
@@ -398,7 +390,6 @@ h3, h4, p, li {
 	.steps .container{
 	margin-bottom: 100px;
 	}
-
 }
 
 @media screen and (max-width:999px) and (min-width:768px)
